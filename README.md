@@ -4,6 +4,7 @@ The install script for squid and stunnel on Ubuntu.
 # 可以用来干嘛
 **squid** 提供http代理，**stunnel**提供加密通道，两者一起就可以提供https代理了。
 再加上Let's encrypt的免费**https证书**，三者就可以提供标准的可用于浏览器的https代理服务了。
+https代理服务器有哪些用处呢？
 
 # 脚本作用
 
@@ -11,7 +12,7 @@ The install script for squid and stunnel on Ubuntu.
 
 # 使用方法
 
-    git clone 
+    git clone git@github.com:eignil/squid-stunnel.git
     source ./install
 
 
